@@ -28,4 +28,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . ./
 
 
-RUN ["python", "-m", "application"]
+CMD ["python", "-m", "application"]

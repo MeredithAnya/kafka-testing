@@ -2,6 +2,8 @@ from confluent_kafka import Producer
 
 from .bootstrap import bootstrap, TOPIC, CONFIGURATION
 from .messages import get_messages
+
+
 p = Producer(**CONFIGURATION)
 
 
